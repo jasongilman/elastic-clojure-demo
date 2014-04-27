@@ -1,6 +1,6 @@
 # elastic-clojure-demo
 
-A Clojure library designed to ... well, that part is up to you.
+Demonstrates Elasticsearch integration with Clojure.
 
 ## Usage
 
