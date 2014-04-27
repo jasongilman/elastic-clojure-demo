@@ -11,8 +11,7 @@ Demonstrates Elasticsearch integration with Clojure.
      - lein install-marvel
    - Start the REPL
      - lein repl
-   - Run `(reset)` to start Elasticsearch.
-   - TODO more here
+   - Open elastic-clojure-demo.core and evaluate expressions in that file.
 
 
 ## Hack night TODOs
