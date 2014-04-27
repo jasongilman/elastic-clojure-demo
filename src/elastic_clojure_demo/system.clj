@@ -1,13 +1,19 @@
 (ns elastic-clojure-demo.system
-  (:require [elastic-clojure-demo.elasticsearch :as es]))
+  (:require [elastic-clojure-demo.elasticsearch :as es]
+            [elastic-clojure-demo.index :as idx]))
+
+(def port 9200)
 
 (defn start
   "Creates and returns a new system that's started"
   []
-  {:es (es/start 9200)})
+  {:es (es/start port)
+   :connection (idx/connect port)})
 
 (defn stop
   "Stops the system"
   [system]
-  (update-in system [:es] es/stop))
+  (-> system
+      (update-in [:es] es/stop)
+      (dissoc :connection)))
 
