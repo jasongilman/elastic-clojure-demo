@@ -5,19 +5,19 @@ Demonstrates Elasticsearch integration with Clojure.
 ## Setup
 
    - Clone https://github.com/jasongilman/elastic-clojure-demo
-     - git clone https://github.com/jasongilman/elastic-clojure-demo.git
+     - `git clone https://github.com/jasongilman/elastic-clojure-demo.git`
    - Install the Elasticsearch Marvel plugin
-     - cd elastic-clojure-demo
-     - lein install-marvel
+     - `cd elastic-clojure-demo`
+     - `lein install-marvel`
    - Start the REPL
-     - lein repl
-   - Open elastic-clojure-demo.core and evaluate expressions in that file.
+     - `lein repl`
+   - Open `elastic-clojure-demo.core` and evaluate expressions in that file.
 
 
 ## Hack night TODOs
 
-  * Setup the index for storing baseball players from players.csv
-  * Extract data from players.csv using Clojure CSV and save to Elasticsearch.
+  * Setup the index for storing baseball players from `players.csv`
+  * Extract data from `players.csv` using Clojure CSV and save to Elasticsearch.
   * Use Clojure and Elasticsearch to answer challenge questions.
 
 ### Challenge Questions
