@@ -11,7 +11,10 @@ Demonstrates Elasticsearch integration with Clojure.
      - `lein install-marvel`
    - Start the REPL
      - `lein repl`
+     - Run `(reset)`
    - Open `elastic-clojure-demo.core` and evaluate expressions in that file.
+     - If you're not using a editor integrated REPL run `(in-ns 'elastic-clojure-demo.core)`
+     - Then you can copy and past expressions into the REPL.
 
 
 ## Hack night TODOs
