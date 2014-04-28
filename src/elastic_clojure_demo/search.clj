@@ -5,9 +5,6 @@
             [clojurewerkz.elastisch.rest.response :as esr]))
 
 
-;; TODO show some example searches
-;; include aggregation
-
 ;; Example Searches
 
 (defn find-all-groceries
