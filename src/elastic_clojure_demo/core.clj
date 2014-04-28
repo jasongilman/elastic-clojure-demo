@@ -2,7 +2,8 @@
   "A commented out namespace with forms to be evaluated to try out Elasticsearch and Clojure"
   (:require [elastic-clojure-demo.index :as idx]
             [elastic-clojure-demo.data :as data]
-            [elastic-clojure-demo.search :as srch]))
+            [elastic-clojure-demo.search :as srch]
+            [clojure.pprint :refer [pp pprint]]))
 
 
 (comment
