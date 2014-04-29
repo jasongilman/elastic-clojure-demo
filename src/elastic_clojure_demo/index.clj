@@ -35,7 +35,7 @@
     (esi/create conn
                 index-name
                 :settings index-settings
-                :mapping {type-name mapping-fields})))
+                :mappings {type-name {:properties mapping-fields}})))
 
 (defn save-records
   [conn records]

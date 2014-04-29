@@ -16,7 +16,7 @@
   (def conn (:connection user/system))
 
   ;; Create the index if it does not exist
-  ;; To clear out all data or delete the index shutdown the repl and then run `lein es-clean`
+  ;; To clear out all data or delete the index shutdown the repl and then run `lein clean-es`
   (idx/create-index conn)
 
   ;; Index some data
